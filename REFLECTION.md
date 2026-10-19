@@ -15,3 +15,5 @@ A fragment allows us to group multiple elements without adding an extra element 
 4. Name one benefit of splitting the UI into small components.
 
 It makes our code easier to manage and reuse. Instead of writing the same code multiple times, we can create a component once and use it wherever needed.
+
+# Week 2 reflection
