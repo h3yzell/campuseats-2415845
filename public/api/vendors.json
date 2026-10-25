@@ -12,7 +12,7 @@
       { "id": "2415845-m4", "name": "Almond Croissant", "description": "Twice-baked with frangipane and toasted almond flakes.", "price": 16, "category": "Pastries", "available": true, "popular": false },
       { "id": "2415845-m5", "name": "Iced Spanish Latte", "description": "Double shot over milk sweetened with condensed milk.", "price": 13, "category": "Drinks", "available": true, "popular": true },
       { "id": "2415845-m6", "name": "Matcha Latte", "description": "Uji ceremonial-grade matcha Imported from Japan with fresh milk.", "price": 15, "category": "Drinks", "available": false, "popular": true },
-      { "id": "2415845-m7", "name": "Basque Burnt Cheesecake", "description": "Caramelised top, creamy centre.", "price": 17, "category": "Cakes", "available": true, "popular": true },
+      { "id": "2415845-m7", "name": "Basque Burnt Cheesecake", "description": "Caramelised top, creamy centre.", "price": 17, "category": "Cakes", "available": true, "popular": true, "special": true, "specialEndsAt": "22:00" },
       { "id": "2415845-m8", "name": "Earl Grey Chiffon", "description": "Light chiffon sponge with earl grey chantilly cream.", "price": 15, "category": "Cakes", "available": true, "popular": false },
       { "id": "2415845-m9", "name": "Croissant Sandwich", "description": "Butter croissant with scrambled eggs, smoked turkey and cheddar.", "price": 22, "category": "Brunch", "available": true, "popular": true },
       { "id": "2415845-m10", "name": "Truffle Mushroom Toast", "description": "Sourdough, sautéed mushrooms, truffle oil, poached egg.", "price": 26, "category": "Brunch", "available": false, "popular": true }
@@ -40,7 +40,9 @@
         "description": "Burger in a bun with double patty and special sauce",
         "price": 9.5,
         "category": "Burgers",
-        "available": true
+        "available": true,
+        "special": true,
+        "specialEndsAt": "23:00"
       },
       {
         "id": "2410997-s3",
@@ -109,8 +111,8 @@
     "category": "Deserts", "popular": true },
     { "id": "2417035-m4", "name": "White Chocolate Chip Cookie", "price": 6.0, 
     "category": "Deserts", "popular": true },
-    { "id": "2417035-m5", "name": "Matcha Smores Cookies", "price": 7.0, 
-    "category": "Deserts", "popular": true },
+    { "id": "2417035-m5", "name": "Matcha Smores Cookies", "price": 7.0,
+    "category": "Deserts", "popular": true, "special": true, "specialEndsAt": "20:00" },
     { "id": "2417035-m6", "name": "Matcha White Choc Cookie", "price": 8.0, 
     "category": "Deserts", "popular": true },
     { "id": "2417035-m7", "name": "Oreo Cookie", "price": 5.0, 

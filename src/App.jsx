@@ -5,6 +5,7 @@ import MenuList from './components/MenuList.jsx'
 import Footer from './components/Footer.jsx'
 import { Loading, ErrorMessage } from './components/Status.jsx'
 import CartPage from './components/CartPage.jsx'
+import SpecialBanner from './components/SpecialBanner.jsx'
 
 function App() {
   const [cart, setCart] = useState([])
@@ -13,6 +14,7 @@ function App() {
   const [selectedVendorId, setSelectedVendorId] = useState(null)
   
   const selectedVendor = vendors.find((v) => v.id === selectedVendorId)
+  const special = selectedVendor?.menu.find((item) => item.special)
   const cartCount = cart.reduce((sum, line) => sum + line.qty, 0)
 
   const [lastOrder, setLastOrder] = useState(null)
@@ -104,6 +106,7 @@ function App() {
 
         <section>
           <h2 className="section-title">Menu: {selectedVendor.name}</h2>
+          {special && <SpecialBanner key={special.id} item={special} onAdd={handleAddToCart} />}
           <MenuList items={selectedVendor.menu} onAdd={handleAddToCart} />
         </section>
       </>
