@@ -18,3 +18,11 @@
 - What I kept, changed or rejected, and why: 
     I understand the mechanics and the flow behind the functions, so I can apply it to my code.
 - One thing the AI got wrong and how I fixed it: -
+
+## Week 4
+- Tool(s): Claude
+- What I asked for: 
+    I struggled with understanding hooks, context, and routing. Therefore, I asked for the flow and for a diagram to see clearly what is happening when I use these. I also asked for guides where things should go since I am quite overwhelmed with many changes that is happening with the new feature.
+- What I kept, changed or rejected, and why: 
+    I kept the suggested structure and fit it to my app. 
+- One thing the AI got wrong and how I fixed it: -

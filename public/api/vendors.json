@@ -104,21 +104,21 @@
   "isOpen": true,
   "menu": [
     { "id": "2417035-m1", "name": "Chocolate Chip Cookie", "price": 5.0, 
-    "category": "Deserts", "popular": true },
+    "category": "Deserts", "available": true,"popular": true },
     { "id": "2417035-m2", "name": "Chocolate Smores Cookie", "price": 6.0, 
-    "category": "Deserts", "popular": true },
+    "category": "Deserts", "available": false, "popular": true },
     { "id": "2417035-m3", "name": "Red Velvet Cookie", "price": 5.0, 
-    "category": "Deserts", "popular": true },
+    "category": "Deserts", "available": true, "popular": true },
     { "id": "2417035-m4", "name": "White Chocolate Chip Cookie", "price": 6.0, 
-    "category": "Deserts", "popular": true },
+    "category": "Deserts", "available": false, "popular": true },
     { "id": "2417035-m5", "name": "Matcha Smores Cookies", "price": 7.0,
-    "category": "Deserts", "popular": true, "special": true, "specialEndsAt": "20:00" },
+    "category": "Deserts", "available": true, "popular": true, "special": true, "specialEndsAt": "20:00" },
     { "id": "2417035-m6", "name": "Matcha White Choc Cookie", "price": 8.0, 
-    "category": "Deserts", "popular": true },
+    "category": "Deserts", "available": false, "popular": true },
     { "id": "2417035-m7", "name": "Oreo Cookie", "price": 5.0, 
-    "category": "Deserts", "popular": true },
+    "category": "Deserts", "available": true, "popular": true },
     { "id": "2417035-m8", "name": "Oreo Smores Cookie", "price": 6.0, 
-    "category": "Deserts", "popular": true }
+    "category": "Deserts", "available": false, "popular": true }
     ]
 }
 

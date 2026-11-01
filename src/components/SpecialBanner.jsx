@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { useCart } from '../hooks/useCart.js'
 
 function todayAt(time) {
     const [h, m] = time.split(':').map(Number)
@@ -15,8 +16,9 @@ function formatTime(ms) {
     return `${h}:${m}:${s}`
 }
 
-function SpecialBanner({ item, onAdd }) {
+function SpecialBanner({ item }) {
     const [now, setNow] = useState(() => Date.now())
+    const { addToCart } = useCart()
 
     useEffect(() => {
         const id = setInterval(() => setNow(Date.now()), 1000)
@@ -34,7 +36,7 @@ function SpecialBanner({ item, onAdd }) {
             <p className="muted">
                 {ended ? 'This special has ended for today.' : `Ends in ${formatTime(msLeft)}`}
             </p>
-            <button className="btn" disabled={ended || item.available === false} onClick={() => onAdd(item)}>
+            <button className="btn" disabled={ended || item.available === false} onClick={() => addToCart(item)}>
                 {ended ? 'Ended' : 'Add to cart'}
             </button>
         </div>
